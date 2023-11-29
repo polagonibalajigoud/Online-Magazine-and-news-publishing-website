@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("https://i.pinimg.com/564x/18/db/e1/18dbe1269281a46f9064eb5efae42dbc.jpg");
+   
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(91, 15, 15, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.menu-item-details {
+    flex: 1;
+}
+
+.menu-item-details h3 {
+    margin: 0;
+    color: #333;
+}
+
+.menu-item-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.menu-item-rate {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+h3{
+    text-decoration: underline;
+}
+.box{
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+#Fiction{
+    background-color: rgba(213, 77, 77, 0.8);
+    
+}
+#mystery-thriller{
+    background-color: rgba(77, 213, 186, 0.8);
+}
+#lunch{
+    background-color: rgba(163, 77, 213, 0.8);
+}
+#Non-fiction{
+    background-color: rgba(204, 213, 77, 0.8);
+}
+
+#Science-Fiction{
+    background-color: rgba(72, 180, 72, 0.8);
+}
+#Note{
+    background-color: rgba(160, 5, 5, 0.8);
+}
+#newsreport{
+    background-color: rgba(160, 5, 5, 0.8);
+}
+.menu-box{
+    background-color: rgb(127, 137, 253);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+}
